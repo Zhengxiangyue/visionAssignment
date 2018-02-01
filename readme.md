@@ -1,10 +1,14 @@
-Description: https://zhengxiangyue.gitbooks.io/computervision/
+### Description:
 
-Executable script: 
+ https://zhengxiangyue.gitbooks.io/computervision/
+
+### Executable script: 
+
 singleScale.m
 multiscale.m
 
-Function script: 
+### Function script: 
+
 BrennerGradientScore.m
 multi_scale_shift_result.m
 scaleBy2.m
