@@ -1,3 +1,7 @@
+#### Zheng XiangYue G42416206
+
+![ning1](https://raw.githubusercontent.com/Zhengxiangyue/visionAssignment/master/result/colored_multi_scale_new_01861a.jpg)
+
 ### Description:
 
  https://zhengxiangyue.gitbooks.io/computervision/
