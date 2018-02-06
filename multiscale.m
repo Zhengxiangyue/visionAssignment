@@ -1,9 +1,9 @@
 
-% CSCI 4527/6527: Project 1, starter Matlab code
+% CSCI 4527/6527: Project 1, Zheng XiangYue, G42416206
 clear;
 
 % name of the input file, jpg
-[imfolder, imname, format] = fileparts('./data/01887u.tif');
+[imfolder, imname, format] = fileparts('./data/01861a.jpg');
 
 % read in the image
 fullim = imread(strcat(imfolder,'/',imname,format));
@@ -30,4 +30,4 @@ auto_balanced_image = auto_white_balance(auto_contrast_image);
 
 color_image_folder = './result/';
 imshow(auto_balanced_image);
-imwrite(aligned_image,strcat(color_image_folder,'colored_multi_scale_new_',imname, '.jpg'));
+imwrite(auto_balanced_image,strcat(color_image_folder,'colored_multi_scale_new_',imname, '.jpg'));
