@@ -25,6 +25,9 @@ cropped_image = aligned_image(m/15:13*m/15, n/15:14*n/15, :);
 % image auto contrast
 auto_contrast_image = auto_contrast(cropped_image);
 
-color_image_folder = './result/';
+% image auto white balance
+auto_balanced_image = auto_white_balance(auto_contrast_image);
 
+color_image_folder = './result/';
+imshow(auto_balanced_image);
 imwrite(aligned_image,strcat(color_image_folder,'colored_multi_scale_new_',imname, '.jpg'));

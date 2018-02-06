@@ -10,8 +10,6 @@ function output_image = auto_contrast(image)
         for j = 1:n
             if(min > gray_image(i,j))
                 min = gray_image(i,j);
-                ai = i;
-                aj = j;
             end
             
             if(max < gray_image(i,j))
