@@ -14,6 +14,10 @@ multiscale.m
 
 ### Function script: 
 
+auto_contrast.m
+
+auto_white_balance.m
+
 BrennerGradientScore.m
 
 multi_scale_shift_result.m
@@ -23,3 +27,12 @@ scaleBy2.m
 seperate_image.m
 
 single_scale_shift_result.m
+
+### TO DO:
+
+noise_remove.m
+
+
+
+
+
